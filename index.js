@@ -3,7 +3,7 @@ import PhotoSwipeLightbox from '/photoswipe/photoswipe-lightbox.esm.js';
 
 const lightbox = new PhotoSwipeLightbox({
   // may select multiple "galleries"
-  gallery: '#gallery--getting-started',
+  gallery: '#kimchi',
 
   // Elements within gallery (slides)
   children: 'a',
