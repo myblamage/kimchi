@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<script type="module">
-import PhotoSwipeLightbox from 'photoswipe/photoswipe-lightbox.esm.js';
-const lightbox = new PhotoSwipeLightbox({
-  gallery: '#kimchi',
-  children: 'a',
-  pswpModule: () => import('photoswipe/photoswipe.esm.js')
-});
-lightbox.init();
-</script>
-<link rel="stylesheet" href="photoswipe/photoswipe.css">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -1263,7 +1253,33 @@ pre[class*="language-"] {
 <p>Vyrobeno 17. prosince 2023. Máte-li v oblibě pikantnější kimchi, zkonzumujte během prvních dvou týdnů, pokud si víc pochutnáte na mírnější (leč uzrálejší variantě), nechte v chladu fermentovat klidně i několik měsíců, záleží na vašich chuťových preferencích. Pro zpomalení fermentace uložte do chladničky. Kimchi je superpotravina, která chutná a léčí.</p>
 </p><img src="assets/images/2023_12_17/img_01.jpg" alt="Gimjang" style="height: 100px; width:100px;"/><img src="/assets/images/2023_12_17/img_02.jpg" alt="Gimjang" style="height: 100px; width:100px;"/>
 
-<div class="pswp-gallery pswp-gallery--single-column" id="#kimchi">
+
+<div class="flex-container">
+  <div><a href="assets/images/2023_12_17/img_01.jpg" 
+    width="1000" 
+    height="1000" 
+    target="_blank">
+    <img src="assets/images/2023_12_17/img_01.jpg" alt="" />
+  </a></div>
+  <div><a href="assets/images/2023_12_17/img_02.jpg" 
+    width="1000" 
+    height="1000" 
+    target="_blank">
+    <img src="assets/images/2023_12_17/img_02.jpg" alt="" />
+  </a></div>
+  <div><a href="assets/images/2023_12_17/img_03.jpg" 
+    data-pswp-width="1669" 
+    data-pswp-height="2500" 
+    target="_blank">
+    <img src="assets/images/2023_12_17/img_03.jpg" alt="" />
+  </a></div>
+</div>	  
+	  
+	  
+	  
+	  
+	  
+	  <div class="pswp-gallery pswp-gallery--single-column" id="#kimchi">
   <a href="assets/images/2023_12_17/img_01.jpg" 
     data-pswp-width="1669" 
     data-pswp-height="2500" 
